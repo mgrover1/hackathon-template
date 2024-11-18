@@ -1,0 +1,17 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: fc736329-74e9-403e-aeb0-971e574117c2
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/mgrover1/hackathon-template
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
