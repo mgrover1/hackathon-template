@@ -28,7 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install numpy pandas PyGithub
     - name: create issues
-      run: python create_issues.py
+      run: python scripts/create_issues.py
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         REPO_NAME: ${{ github.repository }}
