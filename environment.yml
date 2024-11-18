@@ -1,4 +1,4 @@
-name: hackathon-template
+name: hackathon-template-dev
 channels:
   - conda-forge
 dependencies:
