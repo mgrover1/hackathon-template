@@ -12,7 +12,7 @@ project:
     - file: README.md
     - file: schedule.md
     - file: instructors.md
-    - title: Organizing Checklist
+    - title: Organizing Materials
       children:
         - file: organizing-checklist.md
 site:
