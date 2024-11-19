@@ -11,6 +11,10 @@ project:
   toc:
     - file: README.md
     - file: schedule.md
+    - file: instructors.md
+    - title: Organizing Checklist
+      children:
+        - file:
 site:
   template: book-theme
   # options:
