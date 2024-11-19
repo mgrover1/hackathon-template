@@ -14,7 +14,7 @@ project:
     - file: instructors.md
     - title: Organizing Checklist
       children:
-        - file:
+        - file: organizing-checklist.md
 site:
   template: book-theme
   # options:
