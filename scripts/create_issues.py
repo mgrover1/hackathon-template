@@ -7,8 +7,7 @@ import numpy as np
 g = Github(os.environ["GITHUB_TOKEN"])
 repo = g.get_repo(os.environ["REPO_NAME"])
 
-issues = pd.read_csv("checklist-issues.txt", skiprows=1, 
-                     names=["issue", "label", "milestone"])
+issues = pd.read_json("checklist-issues.json")
 issues = issues.applymap(lambda x: x.strip())
 
 
